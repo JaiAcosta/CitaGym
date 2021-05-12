@@ -1,0 +1,10 @@
+[Unit]
+Description=App CitaGym
+
+[Timer]
+Unit=citaGym.service
+OnCalendar=Mon..Sun 00:01
+Persistent=true
+
+[Install]
+WantedBy=timers.target

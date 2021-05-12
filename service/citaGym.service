@@ -1,0 +1,10 @@
+[Unit]
+Description=App CitaGym
+
+[Service]
+Type=simple
+User=jacos
+Restart=on-failure
+RestartSec=5s
+ExecStart=/home/jacos/CitaGym/citaGym.sh
+
